@@ -49,6 +49,7 @@ body{
     background: url('/img/procurar.png') no-repeat center right;
     border-bottom: 2px solid var(--second-color);
     outline: none;
+    color: var(--second-color);
 }
 
 .top-header__buscar::placeholder{
@@ -338,3 +339,63 @@ body{
 .bol--ativo{
     background-color: #000;
 }
+
+/*  register */
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.news__descripition{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.news__title{
+    font-size: 26px;
+    color: #656667;
+    font-weight: bold;
+}
+
+.news__text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.news__email{
+    width: 100%;
+}
+
+.news__register-email{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.news__input-emial{
+    width: 100%;
+    outline: none;
+    border-bottom: 1px solid var(--first-color);
+    margin-right: 20px;
+    font-size: 16px;
+    color: #656667;
+}
+
+.btn--news{
+    background-color: var(--first-color);
+    color: var(--second-color);
+    padding: 12px 50px;
+}
+
+.news__alert{
+    font-size: 12px;
+    font-weight: 400;
+    color: #656667;
+}
+
+/* footer */
