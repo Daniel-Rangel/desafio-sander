@@ -2,8 +2,7 @@
     /* cores */
     --first-color: #000000;
     --second-color: #fff;
-
-    /*cores textos*/
+    --third-color: #f5f5f5;
     --text-red: #BA0038;
     --text-grey: #656667;
 }
@@ -389,7 +388,9 @@ body{
 .btn--news{
     background-color: var(--first-color);
     color: var(--second-color);
-    padding: 12px 50px;
+    padding: 12px 36px;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .news__alert{
@@ -399,3 +400,65 @@ body{
 }
 
 /* footer */
+
+.footer{
+    background-color:var(--third-color);
+    padding: 40px 0;
+}
+
+.footer__links{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-transform: uppercase;
+}
+
+.links__title{
+    font-size: 14px;
+    color: #292929;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    padding-bottom: 24px;
+}
+
+.links__itens,
+.links__text{
+    font-size: 14px;
+    font-weight: 300;
+    list-style: none;
+    line-height: 25px;
+}
+
+.link{
+    text-decoration: none;
+    color: #292929;
+}
+
+/* footer parceria */
+
+.footer-parcerias{
+    margin: 32px auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-parcerias__title{
+    font-size: 14px;
+    color: #292929;
+    font-weight: 400px;
+}
+
+.img-group{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+/* copyright */
+
+.footer-copyright{
+    background-color: var(--first-color);
+    color: #e4e4e4;
+    padding: 8px 0;
+    font-size: 12px;
+    text-align: center;
+}
