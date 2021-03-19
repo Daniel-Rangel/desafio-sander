@@ -173,11 +173,6 @@ body{
     padding-top: 95px;
 }
 
-.btn--position{
-    margin-right: 0;
-    margin-left: auto;
-    max-width: 65%
-}
 
 /* fachion */
 
@@ -212,6 +207,7 @@ body{
     bottom: 0;
 }
 
+/* botoes */
 .btn{
     max-width: 48%;
     display: block;
@@ -225,13 +221,21 @@ body{
     font-size: 12px;
 }
 
+.btn--position{
+    margin-left: auto;
+    max-width: 63%
+}
+
 .mirror__img--small{
-    width: 80%;
-    
+    width: 73%;
+}
+
+.mirror__img--adjust{
+    width: 85%;
 }
 
 .mirror__img--big{
-    width: 125%;
+    width: 126%;
 }
 
 /* showcase */
