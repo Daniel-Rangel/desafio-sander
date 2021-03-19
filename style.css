@@ -19,7 +19,7 @@ body{
 }
 
 .conteiner{
-    width: 990px;
+    width: 950px;
     margin: 0 auto;
 }
 
@@ -27,6 +27,7 @@ body{
     width: 100%;
 }
 
+/* header */
 .header{
     background-color: var(--first-color);
     display: flex;
@@ -172,7 +173,27 @@ body{
     padding-top: 95px;
 }
 
-/* modas */
+.btn--position{
+    margin-right: 0;
+    margin-left: auto;
+    max-width: 65%
+}
+
+/* fachion */
+
+.fashion{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.fashion__card{
+    position: relative;
+}
+
+/* fachion mirror */
 
 .mirror{
     width: 100%;
@@ -204,26 +225,6 @@ body{
     font-size: 12px;
 }
 
-.btn--position{
-    margin-right: 0;
-    margin-left: auto;
-    max-width: 65%
-}
-
-/* fachion */
-
-.fashion{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-}
-
-.fashion__card{
-    position: relative;
-}
-
 .mirror__img--small{
     width: 80%;
     
@@ -234,6 +235,7 @@ body{
 }
 
 /* showcase */
+
 .sales__title{
     text-align: center;
     font-weight: 400;
@@ -278,7 +280,7 @@ body{
     display: none;
 }
 
-.showcase__container:hover > .showcase__buttons{
+.showcase__container:hover .showcase__buttons{
     display: flex;
 }
 
@@ -288,6 +290,7 @@ body{
     background-color: var(--first-color);
     margin-top: 0;
     font-size: 8px;
+    font-weight: 400;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -306,6 +309,10 @@ body{
 
 .btn--showcase-2{
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+.btn--size{
+    font-size: 10px;
 }
 
 .showcase__description{
@@ -364,8 +371,7 @@ body{
 /* insta */
 
 .instagram{
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin: 32px auto;
 }
 
 .instagram__title{
@@ -376,7 +382,7 @@ body{
 
 .instagram__img{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     gap:8px;
     margin: 30px 0;
 }
