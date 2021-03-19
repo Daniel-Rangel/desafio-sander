@@ -157,7 +157,7 @@ body{
     bottom: 5%;
     transform: translateX(-50%);
     display: flex;
-    padding: 30px;
+    padding: 22px;
 }
 
 .disc__text{
@@ -170,9 +170,8 @@ body{
 
 .desc__box{
     width: 60%;
-    padding-top: 95px;
+    padding-top: 92px;
 }
-
 
 /* fachion */
 
